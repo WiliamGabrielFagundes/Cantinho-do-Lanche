@@ -22,7 +22,7 @@ header {
     background-color: var(--marrom);
     color: white;
     padding: 20px 10%;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
