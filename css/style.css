@@ -32,6 +32,12 @@ header h1 {
     color: var(--laranja);
 }
 
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 nav a {
     color: white;
     text-decoration: none;
