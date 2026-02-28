@@ -149,6 +149,25 @@ a{
     transform: scale(1.05);
 }
 
+.btn-pedido-final {
+    background-color: var(--laranja);
+    display: block;
+    width: 145px;
+    margin-left: 460px;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .btn-pedido-final {
+        margin-left: 130px;
+    }
+}
+
 .contact {
     background-color: var(--verde-suave);
     color: white;
