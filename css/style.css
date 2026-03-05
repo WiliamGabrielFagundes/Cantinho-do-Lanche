@@ -168,6 +168,37 @@ a{
     }
 }
 
+.btn-cardapio {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #ff7a18, #ff3d00);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.5px;
+}
+
+.btn-download:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #ff8c42, #ff5722);
+}
+
+.btn-download:active {
+    transform: scale(0.97);
+}
+
 .contact {
     background-color: var(--verde-suave);
     color: white;
